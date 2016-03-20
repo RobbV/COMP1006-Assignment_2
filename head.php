@@ -12,7 +12,7 @@
         <li title="about"><a href="#">About Us</a></li>
         <li title="projects"><a href="#">Projects</a></li>
         <li title="contact"><a href="#">Contact Us</a></li>
-        <li title="register"><a href="#">Register</a></li>
+        <li title="register"><a href="register.php">Register</a></li>
         <li title="login"><a href="#">Login</a></li>
         <?php
         //<!-- clients tools when a general user has logged in -->
