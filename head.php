@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title><?php ehco page_title?></title>
+    <meta charset="utf-8" />
+    <title><?php echo $page_title;?></title>
   </head>
   <body>
     <!-- Global Public Nav -->
@@ -18,11 +18,11 @@
         //<!-- clients tools when a general user has logged in -->
 
         if (condition) {
-          ehco ' <li title="user tools"><a href="#">User Tools</a></li> ';
+          echo ' <li title="user tools"><a href="#">User Tools</a></li> ';
         }// Admin tools for users logged in as Admin's
         elseif (condition) {
-          ehco ' <li title="user tools"><a href="#">User Tools</a></li> ';
-          ehco ' <li title="admin tools"><a href="#">Admin Tools</a></li> ';
+          echo ' <li title="user tools"><a href="#">User Tools</a></li> ';
+          echo ' <li title="admin tools"><a href="#">Admin Tools</a></li> ';
         }
          ?>
       </ul>
