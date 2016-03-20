@@ -1,5 +1,5 @@
 <?php
-$pager_title = 'Regerister';
+$pager_title = 'Regerister/LogIn';
 // link head to pager
 require('head.php');?>
 <!-- form -->
@@ -33,6 +33,21 @@ require('head.php');?>
       <!-- submit -->
       <div class="">
             <input type="submit" value="Register" />
+        </div>
+    </form>
+    <!-- login form -->
+      <h2>Log In</h2>
+      <form class="" action="validate.php" method="post">
+        <div class="form-group">
+            <label for="username" class="col-sm-2">Username:</label>
+            <input name="username" />
+        </div>
+        <div class="form-group">
+            <label for="password" class="col-sm-2">Password:</label>
+            <input type="password" name="password" />
+        </div>
+        <div class="col-sm-offset-2">
+            <input type="submit" value="Login" class="btn btn-primary" />
         </div>
     </form>
 <!-- link footer to page -->
