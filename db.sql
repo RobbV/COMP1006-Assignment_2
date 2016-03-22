@@ -9,7 +9,7 @@ create table users_db(
 	
     user_id		VARCHAR(10),
     username	VARCHAR(25),
-    password	VARCHAR(1000),
+    password	VARCHAR(128),
     admin		BIT,
 	gen_user	BIT
 );
