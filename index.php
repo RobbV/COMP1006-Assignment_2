@@ -7,7 +7,7 @@ $page_title ='Home';
     the right designer, devloper, or programmer for any of your web project needs.
     sign up as either a developer, designer, or programmer to take on listed projects
     or sign up to post any web project or problem the you need a solution to.</p>
-    <form class="" action="register|login.php" method="post">
+    <form class="" action="register.php" method="post">
       <button type="submit" class="btn btn-danger">Register Now!</button>
     </form>
  <?php require('footer.php'); ?>

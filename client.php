@@ -1,4 +1,5 @@
 <?php
+require('auth.php');
 $page_title = 'Client Tools';
 require('head.php');
  ?>

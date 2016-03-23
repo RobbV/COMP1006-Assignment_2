@@ -20,7 +20,8 @@
             <li title="about"><a href="about.php">About Us</a></li>
             <li title="projects"><a href="projects.php">Projects</a></li>
             <li title="contact"><a href="contact.php">Contact Us</a></li>
-            <li title="register"><a href="register|login.php">Register | Log In</a></li>
+            <li title="register"><a href="register.php">Register</a></li>
+            <li title="register"><a href="login.php">LogIn</a></li>
             <li title="client tools"><a href="client.php">Client Tools</a></li>
             <li title="admin tools"><a href="admin.php">Admin Tools</a></li>
 
@@ -47,4 +48,4 @@
         </nav>
   </header>
   <section>
-  <main>  
+  <main>

@@ -101,12 +101,6 @@ a {
     			font-size: 0.7em;
     		}
         /*register and login styles*/
-        #register {
-          display: none;
-        }
-        #login {
-          display: none;
-        }
         #button_login {
           margin-top: 10%;
           margin-bottom: 10%;
